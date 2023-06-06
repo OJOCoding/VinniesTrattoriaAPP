@@ -84,7 +84,6 @@
         android:layout_height="45dp"
         android:textColorHint="@color/black"
         android:textAlignment="center"
-        android:inputType="datetime"
         android:layout_marginBottom="15dp"
         android:layout_below="@id/numpeople"
         android:hint="Date"
