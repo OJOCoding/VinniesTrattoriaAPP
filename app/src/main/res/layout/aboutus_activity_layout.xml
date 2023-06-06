@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:context=".AboutUsActivity">
+
+        <!-- Header Bar -->
+        <include
+            android:id="@+id/header_layout"
+            layout="@layout/lightheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+
+        <!-- Image 1 -->
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abus1"
+            android:layout_below="@id/header_layout" />
+
+        <!-- Paragraph 1 -->
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="OUR FOUNDERS"
+            android:layout_below="@id/image1"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/cousinebold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/paragraph1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/founders"
+            android:layout_below="@id/header1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/cousineitalic"
+            android:gravity="center_horizontal" />
+
+        <!-- Image 2 -->
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/paragraph1"
+            android:src="@drawable/abus2" />
+
+        <!-- Paragraph 2 -->
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="OUR FIRST LOCATION"
+            android:layout_below="@id/image2"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/cousinebold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/paragraph2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/locationold"
+            android:layout_below="@id/header2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/cousineitalic"
+            android:gravity="center_horizontal" />
+
+        <!-- Image 3 -->
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/paragraph2"
+            android:src="@drawable/abus3" />
+
+        <!-- Paragraph 3 -->
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="OUR NEWEST LOCATION"
+            android:layout_below="@id/image3"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/cousinebold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/paragraph3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/locationnew"
+            android:layout_below="@id/header3"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/cousineitalic"
+            android:gravity="center_horizontal" />
+
+        <!-- Footer -->
+        <include
+            android:id="@+id/footerLayout"
+            layout="@layout/lightfooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</ScrollView>

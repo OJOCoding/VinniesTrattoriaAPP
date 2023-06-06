@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="7.5dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black"
+        android:text="© 2022 CS 300: SPRING II PROJECT SUBMISSION BY ONI LUCA"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

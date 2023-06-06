@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OrderActivity">
+    <!-- Header Bar -->
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/lightheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img"
+        android:src="@drawable/orderpic"
+        android:layout_below="@id/header_layout"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Click on items you want to remove"
+        android:layout_below="@id/img"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/cousineitalic"
+        android:gravity="center_horizontal" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:layout_above="@+id/total"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp"
+        />
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Total - 0 $"
+        android:layout_above="@id/loadmenuButton"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/cousinebolditalic"
+        android:gravity="center_horizontal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loadmenuButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="Check your Order"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/darkbutton" />
+
+    <!-- Footer -->
+    <include
+        android:id="@+id/footerLayout"
+        layout="@layout/lightfooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+

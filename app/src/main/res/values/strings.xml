@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Vinnies Trattoria</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+</string>
+    <string name="menuintro">“ Welcome to our restaurant! Our menu offers a range of authentic and traditional Italian dishes made from the heart of Italy. Our antipasti options are made from nona`s hands and our pasta dishes are cooked al dente to perfection. Our secondi piatti feature delicious meat and seafood options, and our side dishes are made with fresh, seasonal vegetables. To finish off your meal, our desserts are crafted with care and our wine selection is carefully curated to perfectly complement your meal. Come dine with us and experience the taste of Italy! “</string>
+    <string name="login">Check in with your reservation name and code to proceed to reservation</string>
+    <string name="detail">Thank you for dinning with us! Here is your booking confirmation details.</string>
+    <string name="edit">Something happened last minute? Edit your information below.</string>
+    <string name="thanks">Thank you for dining with us! We hope you enjoyed your meal and had a wonderful experience. If you have a moment, we would love to hear your feedback. Please leave us a review on Yelp or Google. Grazie mille and we hope to see you again soon!</string>
+    <string name="info"> 12345 York Street
+       <br>Suite 69 </br>
+       <br> New York City, New York 69669 </br>
+        <br>+0 123–4567-891 </br></string>
+    <string name="founders">Vinnie\'s Trattoria, an authentic Italian restaurant, was founded by Vinnie, a passionate culinary enthusiast who poured his heart and soul into every dish. Today, his legacy lives on as Vinnie\'s Trattoria continues to delight patrons with its traditional recipes and warm, welcoming atmosphere.</string>
+    <string name="locationold">The first location of Vinnie\'s Trattoria, established by its founder Vinnie, captured the essence of Italian cuisine in every bite. Nestled in a charming corner of town, this cozy trattoria offered locals and visitors a taste of Vinnie\'s culinary expertise and a memorable dining experience.</string>
+    <string name="locationnew">Vinnie\'s Trattoria\'s newest location in New York brings a slice of Italy to the bustling city. Continuing the legacy of its founder Vinnie, this vibrant trattoria showcases a fusion of traditional flavors and modern twists, inviting diners to savor authentic Italian dishes amidst the vibrant energy of the Big Apple.</string>
+</resources>
